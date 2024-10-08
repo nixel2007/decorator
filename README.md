@@ -1,5 +1,9 @@
 # decorator
 
+[![Тестирование](https://github.com/nixel2007/decorator/actions/workflows/testing.yml/badge.svg?branch=master)](https://github.com/nixel2007/decorator/actions/workflows/testing.yml)
+[![Статус порога качества](https://sonar.openbsl.ru/api/project_badges/measure?project=decorator&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=decorator)
+
+
 Библиотека для создания оберток (декораторов) над классами.
 
 Декоратор повторяет публичный интерфейс класса (экспортные методы и поля),
