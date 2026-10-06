@@ -11,5 +11,4 @@ jobs:
     uses: autumn-library/workflows/.github/workflows/release.yml@main
     with:
       package_mask: "decorator-*.ospx"
-    secrets:
-      PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+      trusted_publishing: true
