@@ -6,6 +6,10 @@ on:
       - published
   workflow_dispatch:
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   release:
     uses: autumn-library/workflows/.github/workflows/release.yml@main
